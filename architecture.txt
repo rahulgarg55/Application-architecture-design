@@ -1,4 +1,5 @@
 Project/
+.env
 views/
 -index.html
 -about.html
