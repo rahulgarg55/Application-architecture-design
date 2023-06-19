@@ -1,1 +1,37 @@
-
+Project/
+  views/
+    - index.html
+    - about.html
+    - contact.html
+    - ...
+  public/
+    - css/
+      - styles.css
+    - js/
+      - script.js
+    - images/
+      - logo.png
+      - ...
+  controllers/
+    - indexController.js
+    - aboutController.js
+    - contactController.js
+    - ...
+  models/
+    - User.js
+    - Product.js
+    - Order.js
+    - ...
+  services/
+    - userService.js
+    - productService.js
+    - orderService.js
+    - ...
+  middlewares/
+    - authenticationMiddleware.js
+    - loggingMiddleware.js
+    - ...
+  config/
+    - database.js
+    - appConfig.js
+  app.js
