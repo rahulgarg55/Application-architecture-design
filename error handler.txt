@@ -30,3 +30,49 @@ return next(error)
 }
 return res.status(200).json({success:true});
 });
+
+
+//MIDDLEWARE ERROR HANDLING.
+that have access to req and res objects and the nxt finction in the aplications req-res cycle
+four parameters are--
+err, req, res, and next.
+
+
+app.use((err,req,res,next)=>{
+res.status(500).json({errr:'wrong something'});
+});
+
+
+TRY_CATCH block.
+
+try{
+
+}catch(err){
+console.error(err);
+}
+
+
+//Error event handling.
+
+
+//Promises error Handling.
+we can use .catch() to handle errors that occur during promise resolution or rejection.
+
+somePromise()
+  .then((result) => {
+    // Handle the result
+  .catch((err) => {
+    // Handle the error
+    console.error(err);
+  });
+  
+  
+
+
+
+
+
+
+
+
+
