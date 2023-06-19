@@ -1,1 +1,25 @@
+USER API service
+
+/api/users/register, /api/users/login, /api/users/profile,
+
+Product API Service
+
+/api/products, /api/products/:id, /api/products/create, /api/products/update/:id, and /api/products/delete/:id.
+
+Order API Service
+/api/orders, /api/orders/:id, /api/orders/create, /api/orders/update/:id, etc.
+
+Cart API Service:
+/api/cart/add, /api/cart/update, /api/cart/remove, and /api/cart.
+
+Search API Service: 
+/api/search/products, /api/search/products/:category, /api/search/products/:brand, etc.
+
+Payment API Service: 
+/api/payment/charge, /api/payment/callback, etc.
+
+
+
+
+
 
