@@ -57,6 +57,25 @@ The config folder includes configuration files for your application, such as dat
 The app.js file represents the entry point of your application or the main file where you define routes, initialize the server, and configure various components.
 
 
+-CONTROLLERS->Act as an intermeiatry bw UI and underlying business logic or data models.
+1. Request handling
+2. data manipulation
+3.Business logic
+4. Data Preparation
+5. Response generation 
+6. Routing and Dispatching
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
