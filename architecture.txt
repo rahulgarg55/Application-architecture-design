@@ -40,6 +40,21 @@ script.js
 
 
 
+The views folder contains HTML files representing different views or templates of your application, such as index.html, about.html, contact.html, etc. These files define the presentation layer of your application.
+
+The public folder holds static assets that are directly served to the client, including CSS files (styles.css), JavaScript files (script.js), image files (logo.png), and other resources.
+
+The controllers folder contains files that handle incoming requests, interact with models or services, and prepare data to be sent back to the client. There are separate controller files for different sections or features of the application, such as indexController.js, aboutController.js, contactController.js, etc.
+
+The models folder represents the data and business logic of your application. It contains files defining the structure and behavior of data entities, such as user.js, product.js, order.js, etc.
+
+The services folder encapsulates higher-level functionality by utilizing the models and interacting with external services or APIs. It contains files like userService.js, productService.js, orderService.js, etc.
+
+The middlewares folder stores files that handle middleware functions. These functions intercept and modify requests and responses, perform tasks like authentication (authenticationMiddleware.js), logging (loggingMiddleware.js), and more.
+
+The config folder includes configuration files for your application, such as database connections (database.js), application-specific settings (appConfig.js), and others.
+
+The app.js file represents the entry point of your application or the main file where you define routes, initialize the server, and configure various components.
 
 
 
