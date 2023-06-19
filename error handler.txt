@@ -1,2 +1,10 @@
 
-const errorhanlder=
+const errorhanlder=(error,req,res,next)=>
+return res.status(400).send(error.message); 
+try{
+const user=getUser(); 
+if(!user){ 
+throw new Error("user not found");
+}
+}catch(error)
+return next(error)
