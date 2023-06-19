@@ -35,3 +35,20 @@ Project/
     - database.js
     - appConfig.js
   app.js
+  
+  
+  models/: Defines the data models for the application, such as User, Product, and Order. These models typically map to the database schema or provide a structure for working with data.
+  
+  services/: Contains the business logic of the application. Services handle operations related to users, products, orders, and other functionalities. They interact with the models and may also communicate with external APIs or databases.
+middlewares/: Contains middleware functions that can be applied to specific routes or globally to handle tasks like authentication and logging before or after the request is processed.
+config/: Holds configuration files for the application, such as the database configuration (database.js) and general application settings (appConfig.js).
+app.js: The main entry point of the application. It initializes the server, sets up routes, and connects various components together..
+  
+  
+  
+  
+  
+  
+  
+  
+  
